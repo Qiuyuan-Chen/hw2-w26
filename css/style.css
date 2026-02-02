@@ -1,5 +1,5 @@
-body {
-    font-family: Arial, Verdana, sans-serif;
+body{
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #ffffff;
     margin-top: 20px;
@@ -8,43 +8,43 @@ body {
     margin-bottom: 0;
 }
 
-h1 {
-    font-size: 42px;
+h1{
     text-align: center;
+    font-size: 42px;
     padding: 15px;
 }
 
-h2 {
+h2{
     font-size: 30px;
     color: #0D0D0D;
 }
 
-p {
+p{
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
 }
 
-img {
+img{
     width: 250px;
     display: block;
     margin: 0 auto;
     border: 10px dashed #ffffff;
 }
 
-div {
+div{
     min-height: 125px;
     padding: 20px;
     border: 3px solid #ffffff;
 }
 
-.introduction {
+.introduction{
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
 }
 
-.red {
+.red{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
@@ -54,7 +54,7 @@ div {
     border-right: none;
 }
 
-.blue {
+.blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
@@ -65,11 +65,11 @@ div {
 }
 
 .blue h2,
-.blue p {
+.blue p{
     color: #C4C4C4;
 }
 
-.yellow {
+.yellow{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
@@ -79,34 +79,32 @@ div {
     border-top: none;
 }
 
-.yellow p {
+.yellow p{
     color: #707070;
 }
 
-.green {
+.green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid #ffffff;
     border-top: 2px solid #ffffff;
-    border-bottom: none;
     border-left: none;
+    border-bottom: none;
 }
 
-footer {
+footer{
     background: linear-gradient(
         to right,
-        #000000 0%,
-        #0000FF 25%,
-        #0066FF 70%,
-        #000000 100%
+        #000000,
+        #0000ff 25%,
+        #0066ff 70%,
+        #000000
     );
     border: 5px solid #ffffff;
 }
 
-
-
-footer p {
+footer p{
     font-size: 20px;
     text-align: right;
     padding-right: 15px;
@@ -114,4 +112,3 @@ footer p {
     padding-bottom: 15px;
     padding-left: 0;
 }
-
